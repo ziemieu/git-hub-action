@@ -30,7 +30,7 @@ jobs:
           python-version: "3.9"
 
       - name: run python script
-        run: python create_file
-        
+        run: python create_file.py
+
       - name: List all Original file
         run: ls
