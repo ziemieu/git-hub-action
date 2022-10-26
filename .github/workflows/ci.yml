@@ -31,6 +31,3 @@ jobs:
 
       - name: run python script
         run: python create_file.py
-        
-      - name: List all Original file
-        run: ls
